@@ -16,7 +16,8 @@
     "express": "^4.13.3",
     "handlebars": "^3.0.3",
     "react": "^0.13.3",
-    "react-router": "^0.13.3"
+    "react-router": "^0.13.3",
+    "typescript": "^1.6.0-dev.20150825"
   },
   "engines": {
     "node": "0.10.33"
