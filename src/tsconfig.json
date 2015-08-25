@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "outDir": "../intermediate",
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "../typings/**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./model/app.ts",
+        "./model/data.ts",
+        "./server.ts",
+        "./browser.tsx",
+        "./components/aaa.tsx",
+        "./components/app.tsx",
+        "./components/top.tsx",
+        "./routes.tsx",
+        "../typings/browserify/browserify.d.ts",
+        "../typings/bundle.d.ts",
+        "../typings/express/express.d.ts",
+        "../typings/handlebars/handlebars.d.ts",
+        "../typings/mime/mime.d.ts",
+        "../typings/node/node.d.ts",
+        "../typings/react-router/react-router.d.ts",
+        "../typings/react/react-addons.d.ts",
+        "../typings/react/react.d.ts",
+        "../typings/serve-static/serve-static.d.ts"
+    ],
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2,
+        "newLineCharacter": "\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    }
+}

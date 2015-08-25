@@ -1,0 +1,1 @@
+new require('./intermediate/server');
