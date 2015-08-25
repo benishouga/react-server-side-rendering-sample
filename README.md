@@ -13,6 +13,7 @@ for AdventCalendar http://qiita.com/advent-calendar/2014/reactjs
 
 ```
 npm i
+node_modules/dtsm/bin/dtsm install
 node_modules/typescript/bin/tsc --project src
 node_modules/browserify/bin/cmd.js intermediate/browser.js -o public/bundle.js
 ```
